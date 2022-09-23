@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ssh info
-USER=willmartin
+USER=willmartin # <--- place your cs username here
 
 # get command line args
 COPIES=1
