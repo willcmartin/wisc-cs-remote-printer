@@ -9,7 +9,7 @@ Clone repo and update script permissions
 ```
 $ git clone https://github.com/willwisc-cs-remote-printercmartin/wisc-cs-remote-printer.git
 $ cd wisc-cs-remote-printer
-$ chmod +x ./uw_remote_print.sh
+$ chmod +x wisc-cs-remote-printer.sh
 ```
 
 Modify `./uw_remote_print.sh` script to connect to your CS account
@@ -26,7 +26,7 @@ Modify `./uw_remote_print.sh` script to connect to your CS account
 Run script (must be connected to UW Madsion wireless network)
 
 ```
-./uw_remote_print.sh -p copier-5 -f document.pdf -n 3
+./wisc-cs-remote-printer.sh -p copier-5 -f document.pdf -n 3
 ```
 
 Flags
